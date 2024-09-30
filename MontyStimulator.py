@@ -1,7 +1,7 @@
 import random
 from random import seed, randint
 import numpy
-
+import pandas as pd
 def game(winningdoor, selecteddoor, change=False):
     assert winningdoor < 3
     assert winningdoor >= 0
